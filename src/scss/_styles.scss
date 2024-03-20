@@ -1,0 +1,21 @@
+@import "_variables";
+@import "_mixins";
+
+#boton_is{
+    margin: 0;
+    width: 130px;
+    /*@include small{
+        width: 280px;
+    }
+    @include tablet{
+        width: 260px;
+    }
+    @include escritorio{
+        width: 220px;
+    }*/
+}
+
+.hover-verde:hover{
+    background-color: $primary;
+}
+

@@ -1,0 +1,8 @@
+#boton_is {
+  margin: 0;
+  width: 290px;
+}
+
+.hover-verde:hover {
+  background-color: green;
+}
