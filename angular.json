@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/bootstrap/css/bootstrap.css"
+              "src/assets/bootstrap/css/bootstrap.css",
+              "src/assets/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
