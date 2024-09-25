@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './navbar-superior.component.sass'
 })
 export class NavbarSuperiorComponent {
+  clickIniciarSesion(){
 
+  }
+  clickRegistrarse(){
+    
+  }
 }

@@ -13,8 +13,14 @@
         </div>
 
         <div class="d-flex justify-content-around my-3 my-sm-0">
-            <button class="btn btn-outline-dark rounded-0 align-self-center" id="boton_is" type="submit">Iniciar Sesión</button>
-            <button class="btn btn-dark rounded-0 ms-4" type="submit">Registrarse</button>
+            <button class="btn btn-outline-dark rounded-0 align-self-center" id="boton_is" type="submit"
+            (click)="clickIniciarSesion()">
+                Iniciar Sesión
+            </button>
+            <button class="btn btn-dark rounded-0 ms-4" type="submit"
+            (click)="clickRegistrarse()">
+                Registrarse
+            </button>
         </div>
     </div>
 </div>
