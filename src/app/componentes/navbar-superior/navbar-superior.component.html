@@ -1,5 +1,6 @@
 <div class="container-xl d-flex justify-content-end">
-    <a class="navbar-brand me-auto flex-grow-0" href="#">
+    <a class="navbar-brand me-auto flex-grow-0" href="#"
+    [routerLink]="['/inicio']">
     <img src="/assets/imagenes/locoeco.png" alt="Ecotrack" width="100">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,11 +15,11 @@
 
         <div class="d-flex justify-content-around my-3 my-sm-0">
             <button class="btn btn-outline-dark rounded-0 align-self-center" id="boton_is" type="submit"
-            (click)="clickIniciarSesion()">
+            [routerLink]="['/iniciar-sesion']">
                 Iniciar Sesión
             </button>
             <button class="btn btn-dark rounded-0 ms-4" type="submit"
-            (click)="clickRegistrarse()">
+            [routerLink]="['/registrarse']">
                 Registrarse
             </button>
         </div>
