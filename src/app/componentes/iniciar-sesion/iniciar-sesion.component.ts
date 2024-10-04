@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-iniciar-sesion',
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './iniciar-sesion.component.sass'
 })
 export class IniciarSesionComponent {
+  constructor(private elRef: ElementRef){}
 
+  ngOnInit() {
+    this.elRef.nativeElement.parentElement.class("flex-grow-1");
+  }
 }
